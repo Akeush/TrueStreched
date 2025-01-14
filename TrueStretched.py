@@ -9,7 +9,6 @@ import psutil
 import subprocess
 import platform
 import stat
-import ctypes
 
 
 # Define the ASCII art banner
