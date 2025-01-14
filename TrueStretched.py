@@ -146,26 +146,6 @@ def launch_valorant():
         print("Shortcut not found. Valorant could not be launched.")
         return False
 
-def close_valorant(process_name):
-    """Closes the Valorant process if it is running."""
-    for proc in psutil.process_iter(['pid', 'name']):
-        if proc.info['name'] == process_name:
-            try:
-                proc.terminate()
-                print(f"Valorant process (PID: {proc.info['pid']}) terminated successfully.")
-                return True
-            except psutil.AccessDenied:
-                print(f"Access denied to terminate Valorant process (PID: {proc.info['pid']}).")
-                return False
-            except psutil.NoSuchProcess:
-                print("Valorant process no longer exists.")
-                return False
-            except Exception as e:
-                print(f"An error occurred while terminating Valorant: {e}")
-                return False
-    print("Valorant process not found.")
-    return False
-
 
 def get_shortcut_target(shortcut_path):
     """Get the target path of a shortcut (.lnk)."""
