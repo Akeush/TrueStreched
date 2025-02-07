@@ -30,12 +30,8 @@ This script applies True Stretched resolution settings, priority adjustments, an
 3. **Enter your desired stretched resolution** (e.g., `1480x1080`).  
 4. **Choose the process priority** for Valorant (`Normal`, `High`, etc.).  
 5. **Valorant will launch automatically** with the selected settings.  
-6. **While the script is running, you can:**
- - Restart Valorant without exiting the script.  
- - Switch Riot accounts and relaunch.  
- - Adjust the resolution or priority dynamically.  
-7. **When you're done playing, simply close Valorant.**  
-8. The script will detect the game's closure and **restore your native resolution.**  
+6. **When you're done playing, simply close Valorant.**  
+7. The script will detect the game's closure and **restore your native resolution.**  
 
 ## Notes  
 
