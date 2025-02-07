@@ -1,38 +1,46 @@
-# True Stretched for Valorant
+# True Stretched for Valorant  
 
-This script applies True Stretched resolution settings and priority adjustments for the Valorant game on Windows.
+This script applies True Stretched resolution settings, priority adjustments, and account selection for the Valorant game on Windows.  
 
-## Features
+## Features  
 
-- **Resolution Adjustment:** Allows you to set a custom resolution for Valorant.
-- **Priority Adjustment:** Lets you choose the process priority class for Valorant.
-- **Automatic Restoration:** Restores native resolution upon Valorant exit.
-- **Console Customization:** Changes console title and color for user interaction.
+- **Resolution Adjustment:** Set a custom stretched resolution for Valorant.  
+- **Priority Adjustment:** Choose the process priority for optimal performance.  
+- **Account Selection:** Select a Riot account before launching the game.  
+- **Automatic Restoration:** Reverts to native resolution when you close Valorant.  
+- **Multi-Launch Support:** Restart Valorant directly without restarting the script.  
+- **Enhanced Console UI:** Improved user interaction with dynamic prompts and colors.  
 
-## Requirements
+## Requirements  
 
-- Python 3.x
-- Required Python packages (`pywin32`, `psutil`)
+- **Python 3.x**  
+- **Required Python packages:**  
 
-## Installation
 
-1. **Download it from release:**
-   - `run : TrueStreched.py or .exe`
+## Installation  
 
-## Usage
+1. **Download the latest release:**  
 
-1. Run the script and follow the instructions in the console.
-2. Input your desired resolution (e.g., 1480x1080).
-3. Choose the priority class for Valorant.
-4. Choose the account you are going to play on.
-4. Keep the script running while playing Valorant.
-5. Close Valorant to revert to your native resolution.
+ - Run `TrueStreched.py` (Python required) or `TrueStreched.exe` (standalone).  
 
-## Notes
+## Usage  
 
-- Ensure Python and required packages are installed and accessible.
-- The script assumes default installation paths for Valorant or default shortcut path. Modify `launch_valorant()` function if necessary.
+1. **Launch the script** (`TrueStreched.py` or `.exe`).  
+2. **Select the Riot account** you want to use.  
+3. **Enter your desired stretched resolution** (e.g., `1480x1080`).  
+4. **Choose the process priority** for Valorant (`Normal`, `High`, etc.).  
+5. **Valorant will launch automatically** with the selected settings.  
+6. **While the script is running, you can:**
+ - Restart Valorant without exiting the script.  
+ - Switch Riot accounts and relaunch.  
+ - Adjust the resolution or priority dynamically.  
+7. **When you're done playing, simply close Valorant.**  
+8. The script will detect the game's closure and **restore your native resolution.**  
 
-## License
+## Notes  
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Ensure Python and the required packages are installed if using the `.py` version.  
+- If running the `.exe`, **no Python installation is needed.**  
+- The script supports **multiple Riot accounts**; you can switch accounts without restarting it.  
+- **Keeping the script open** allows you to restart Valorant without losing your settings.  
+- If you encounter **permission issues**, try running the script as an administrator.  
